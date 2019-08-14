@@ -3,11 +3,11 @@
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
-    "description": "Module allow administrator to append pre-defined order comments and sent customers notification emails.",
+    "description": "Administrator can create messages against each order status from admin control panel.",
     "authors": [
     {
-        "name": "Tech Innovations",
-        "email": "magento@titechnologies.in"
+        "name": "Ti",
+        "email": "magneto@titechnologies.in"
     }
 ],
     "suggest": {

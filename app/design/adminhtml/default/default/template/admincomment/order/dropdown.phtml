@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Ti Admin Comment Module
+ *
+ * @category    Ti
+ * @package     Ti_AdminComment
+ * @copyright   Copyright (c) 2014 Ti Technologies (http://www.titechnologies.in)
+ * @link        http://www.titechnologies.in
+ */
+
+$messages = $this->getMessages();
+$configValue = Mage::getStoreConfig('admincomment/admincomment_group/admincomment_enable');
+        if($configValue == 1) {
+?>
+<div class="f-right">
+    <?php echo $messages; ?>
+</div>
+<?php
+}
+?>
