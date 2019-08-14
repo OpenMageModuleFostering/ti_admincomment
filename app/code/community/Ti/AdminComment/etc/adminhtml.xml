@@ -7,6 +7,7 @@
                     <title>Admin Order Comments</title>
                     <sort_order>500</sort_order>
                     <action>admincomment/adminhtml_admincomment</action>
+                    <!--<action>admincomment/adminhtml_index/index</action>-->
                     <depends>
                         <config>admincomment/admincomment_group/admincomment_enable</config>
                     </depends>
@@ -14,21 +15,25 @@
             </children>
         </cms>
     </menu>
-  <acl>
-    <resources>
-             <admin>
-                    <children>
-                            <cms>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
                                 <children>
-                                        <items module="admincomment" translate="title">
-                                            <title>Admin Order Comments</title>
-                                              <sort_order>109</sort_order>
-                                        </items>
-                                 </children>
-                            </cms>
-                    </children>
+                                    <admincomment module="admincomment" translate="title">
+                                        <title>Admin Order Comments</title>
+                                        <sort_order>999</sort_order>
+                                    </admincomment>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
             </admin>
-    </resources>
- </acl>
-</config>
+        </resources>
+    </acl>
 
+</config>
