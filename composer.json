@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Ti_AdminComment",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Module allow administrator to append pre-defined order comments and sent customers notification emails.",
+    "authors": [
+    {
+        "name": "Tech Innovations",
+        "email": "magento@titechnologies.in"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
