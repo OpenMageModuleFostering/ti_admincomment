@@ -9,8 +9,13 @@
  * @link        http://www.titechnologies.in
  */
 
-class Ti_AdminComment_Adminhtml_AdmincommentController extends Mage_Adminhtml_Controller_action
+class Ti_AdminComment_Adminhtml_AdmincommentController extends Mage_Adminhtml_Controller_Action
 {
+
+   protected function _isAllowed() {
+
+        return true;
+    }
 
     protected function _initAction()
     {

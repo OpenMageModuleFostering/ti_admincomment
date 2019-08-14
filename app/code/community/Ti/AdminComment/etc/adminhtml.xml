@@ -14,25 +14,21 @@
             </children>
         </cms>
     </menu>
-
-   <acl>
-        <resources>
-            <admin>
-                <children>
-                    <system>
-                        <children>
-                            <config>
+  <acl>
+    <resources>
+             <admin>
+                    <children>
+                            <cms>
                                 <children>
-                                    <admincomment  translate="title" module="ti_admincomment">
-                                        <title>Admin Order Comments Settings</title>
-                                    </admincomment>
-                                </children>
-                            </config>
-                        </children>
-                    </system>
-                </children>
+                                        <items module="admincomment" translate="title">
+                                            <title>Admin Order Comments</title>
+                                              <sort_order>109</sort_order>
+                                        </items>
+                                 </children>
+                            </cms>
+                    </children>
             </admin>
-        </resources>
-   </acl>
-
+    </resources>
+ </acl>
 </config>
+
