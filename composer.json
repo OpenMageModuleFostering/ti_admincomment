@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Ti_AdminComment",
+    "name": "openmage-module-fostering\/ti_admincomment",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Administrator can create messages against each order status from admin control panel.",
     "authors": [
